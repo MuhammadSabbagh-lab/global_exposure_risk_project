@@ -1,0 +1,148 @@
+version: 2
+
+models:
+  - name: bronze_exposure_events
+    description: "Starting dbt model based on Databricks Gold exposure event data."
+    columns:
+      - name: quote_id
+        tests:
+          - not_null
+          - unique
+      - name: event_date
+        tests:
+          - not_null
+      - name: country
+        tests:
+          - not_null
+      - name: city
+        tests:
+          - not_null
+      - name: peril
+        tests:
+          - not_null
+      - name: pricing_variant
+        tests:
+          - not_null
+
+  - name: silver_exposure_events
+    description: "Cleaned dbt event-level exposure model used by downstream Silver and Gold models."
+    columns:
+      - name: quote_id
+        tests:
+          - not_null
+          - unique
+      - name: event_date
+        tests:
+          - not_null
+      - name: country
+        tests:
+          - not_null
+      - name: latitude
+        tests:
+          - not_null
+      - name: longitude
+        tests:
+          - not_null
+      - name: peril
+        tests:
+          - not_null
+
+  - name: silver_country_peril_summary
+    description: "Reusable Silver summary by country, region and peril."
+    columns:
+      - name: country
+        tests:
+          - not_null
+      - name: peril
+        tests:
+          - not_null
+
+  - name: silver_pricing_variant_summary
+    description: "Reusable Silver A/B pricing variant summary."
+    columns:
+      - name: pricing_variant
+        tests:
+          - not_null
+          - unique
+
+  - name: silver_bind_probability_predictions
+    description: "Reusable Silver row-level machine learning prediction model."
+    columns:
+      - name: quote_id
+        tests:
+          - not_null
+          - unique
+      - name: model_status
+        tests:
+          - not_null
+
+  - name: gold_powerbi_global_exposure_map
+    description: "Power BI map model containing quote/exposure events with location and risk data."
+    columns:
+      - name: quote_id
+        tests:
+          - not_null
+          - unique
+      - name: latitude
+        tests:
+          - not_null
+      - name: longitude
+        tests:
+          - not_null
+
+  - name: gold_powerbi_country_summary
+    description: "Country-level exposure and risk summary."
+    columns:
+      - name: country
+        tests:
+          - not_null
+
+  - name: gold_powerbi_peril_summary
+    description: "Peril-level exposure and risk summary."
+    columns:
+      - name: peril
+        tests:
+          - not_null
+          - unique
+
+  - name: gold_powerbi_ab_test_summary
+    description: "A/B pricing variant summary for Power BI."
+    columns:
+      - name: pricing_variant
+        tests:
+          - not_null
+          - unique
+
+  - name: gold_powerbi_forecast_daily_risk
+    description: "Actual and forecast daily risk-weighted exposure table for Power BI."
+    columns:
+      - name: event_date
+        tests:
+          - not_null
+      - name: record_type
+        tests:
+          - not_null
+
+  - name: gold_powerbi_bind_probability_predictions
+    description: "Power BI model containing machine learning bind probability predictions."
+    columns:
+      - name: quote_id
+        tests:
+          - not_null
+          - unique
+      - name: predicted_bind_probability
+        tests:
+          - not_null
+      - name: predicted_bind_band
+        tests:
+          - not_null
+
+  - name: gold_powerbi_ml_model_metrics
+    description: "Power BI model containing simple machine learning model performance metrics."
+    columns:
+      - name: model_name
+        tests:
+          - not_null
+      - name: model_status
+        tests:
+          - not_null

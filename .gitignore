@@ -1,4 +1,6 @@
-.venv/
+logs/
+**/logs/
+**/target/
 __pycache__/
-.DS_Store
 *.pyc
+.venv/

@@ -1,8 +1,9 @@
 import json
 import os
 import random
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
 import pandas as pd
 
 
@@ -25,11 +26,21 @@ LATEST_FILE = LATEST_DIR / "exposure_events_latest.csv"
 MASTER_FILE = MASTER_DIR / "exposure_events_all.csv"
 STATE_FILE = STATE_DIR / "generator_state.json"
 
-# By default, each normal daily run creates 5 rows.
-# For the initial machine learning seed dataset, we can temporarily override this.
-# Example on Mac/Linux:
-# BATCH_SIZE=1000 python scripts/generate_daily_exposure_events.py
+# Normal daily run:
+# python scripts/generate_daily_exposure_events.py
+#
+# Historical seed run:
+# HISTORICAL_SEED_MODE=true BATCH_SIZE=1000 HISTORICAL_SEED_DAYS=30 python scripts/generate_daily_exposure_events.py
+
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "5"))
+
+HISTORICAL_SEED_MODE = (
+    os.getenv("HISTORICAL_SEED_MODE", "false").lower() == "true"
+)
+
+HISTORICAL_SEED_DAYS = int(
+    os.getenv("HISTORICAL_SEED_DAYS", "30")
+)
 
 
 # =========================================
@@ -162,7 +173,10 @@ def load_state() -> dict:
         with open(STATE_FILE, "r", encoding="utf-8") as file:
             return json.load(file)
 
-    return {"run_number": 0, "total_rows_generated": 0}
+    return {
+        "run_number": 0,
+        "total_rows_generated": 0,
+    }
 
 
 def save_state(state: dict) -> None:
@@ -171,7 +185,10 @@ def save_state(state: dict) -> None:
 
 
 def get_hazard_score(city: str, peril: str) -> int:
-    return hazard_score_lookup.get((city, peril), random.choice([1, 2, 2, 3]))
+    return hazard_score_lookup.get(
+        (city, peril),
+        random.choice([1, 2, 2, 3]),
+    )
 
 
 def create_quote_id(run_number: int, row_number: int) -> str:
@@ -193,7 +210,9 @@ def calculate_quoted_premium(
     base_rate = 0.006
     hazard_loading = hazard_score * 0.0015
 
-    technical_premium = insured_value_usd * (base_rate + hazard_loading)
+    technical_premium = insured_value_usd * (
+        base_rate + hazard_loading
+    )
 
     if pricing_variant == "B":
         return round(technical_premium * 0.95, 2)
@@ -224,8 +243,44 @@ def calculate_bound_flag(
     return int(random.random() < base_probability)
 
 
+def get_generated_timestamp(
+    current_timestamp: datetime,
+    offset: int,
+) -> datetime:
+    """
+    Normal mode:
+    - all rows use today's timestamp.
+
+    Historical seed mode:
+    - rows are spread across the previous HISTORICAL_SEED_DAYS days.
+    - this gives the forecast model multiple actual dates.
+    """
+
+    if not HISTORICAL_SEED_MODE:
+        return current_timestamp
+
+    days_back = HISTORICAL_SEED_DAYS - 1 - (
+        offset % HISTORICAL_SEED_DAYS
+    )
+
+    # Add a small random time within the day so generated timestamps
+    # do not all look identical.
+    random_seconds = random.randint(0, 86_399)
+
+    historical_date = current_timestamp - timedelta(days=days_back)
+
+    historical_midnight = historical_date.replace(
+        hour=0,
+        minute=0,
+        second=0,
+        microsecond=0,
+    )
+
+    return historical_midnight + timedelta(seconds=random_seconds)
+
+
 # =========================================
-# Generate daily batch
+# Generate batch
 # =========================================
 
 state = load_state()
@@ -233,20 +288,29 @@ state = load_state()
 run_number = state["run_number"] + 1
 start_row_number = state["total_rows_generated"] + 1
 
-generated_timestamp = datetime.now(timezone.utc)
-event_date = generated_timestamp.date().isoformat()
+current_timestamp = datetime.now(timezone.utc)
 
 rows = []
 
 for offset in range(BATCH_SIZE):
     row_number = start_row_number + offset
 
+    generated_timestamp = get_generated_timestamp(
+        current_timestamp=current_timestamp,
+        offset=offset,
+    )
+
+    event_date = generated_timestamp.date().isoformat()
+
     location = random.choice(locations)
     peril = random.choice(perils)
     asset_type = random.choice(asset_types)
     pricing_variant = random.choice(["A", "B"])
 
-    hazard_score = get_hazard_score(location["city"], peril)
+    hazard_score = get_hazard_score(
+        city=location["city"],
+        peril=peril,
+    )
 
     insured_value_usd = random.randrange(
         5_000_000,
@@ -304,7 +368,21 @@ for offset in range(BATCH_SIZE):
         }
     )
 
+
+# =========================================
+# Save output files
+# =========================================
+
 batch_df = pd.DataFrame(rows)
+
+# Sort by event date so the CSV is easier to inspect
+batch_df = batch_df.sort_values(
+    by=[
+        "event_date",
+        "generated_timestamp_utc",
+        "quote_id",
+    ]
+)
 
 # Save latest batch for ADF to ingest
 batch_df.to_csv(LATEST_FILE, index=False)
@@ -312,8 +390,12 @@ batch_df.to_csv(LATEST_FILE, index=False)
 # Append to local master file for easy checking
 if MASTER_FILE.exists():
     existing_master_df = pd.read_csv(MASTER_FILE)
+
     updated_master_df = pd.concat(
-        [existing_master_df, batch_df],
+        [
+            existing_master_df,
+            batch_df,
+        ],
         ignore_index=True,
     )
 else:
@@ -324,15 +406,41 @@ updated_master_df = updated_master_df.drop_duplicates(
     keep="last",
 )
 
+updated_master_df = updated_master_df.sort_values(
+    by=[
+        "event_date",
+        "generated_timestamp_utc",
+        "quote_id",
+    ]
+)
+
 updated_master_df.to_csv(MASTER_FILE, index=False)
 
-# Update state
+
+# =========================================
+# Update generator state
+# =========================================
+
 state["run_number"] = run_number
-state["total_rows_generated"] = start_row_number + BATCH_SIZE - 1
+state["total_rows_generated"] = (
+    start_row_number + BATCH_SIZE - 1
+)
 
 save_state(state)
 
-print(f"Generated{BATCH_SIZE} new rows.")
-print(f"Latest batch saved to:{LATEST_FILE}")
-print(f"Master history saved to:{MASTER_FILE}")
-print(f"Run number:{run_number}")
+
+# =========================================
+# Print useful output
+# =========================================
+
+print(f"Generated {BATCH_SIZE} new rows.")
+print(f"Historical seed mode: {HISTORICAL_SEED_MODE}")
+print(f"Historical seed days: {HISTORICAL_SEED_DAYS}")
+print(f"Latest batch saved to: {LATEST_FILE}")
+print(f"Master history saved to: {MASTER_FILE}")
+print(f"Run number: {run_number}")
+
+if not batch_df.empty:
+    print(f"Earliest event_date: {batch_df['event_date'].min()}")
+    print(f"Latest event_date: {batch_df['event_date'].max()}")
+    print(f"Unique event_date count: {batch_df['event_date'].nunique()}")

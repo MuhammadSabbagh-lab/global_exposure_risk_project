@@ -1,0 +1,11 @@
+name: 'exposure_risk_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'exposure_risk_dbt'
+
+model-paths: ['models']
+
+models:
+  exposure_risk_dbt:
+    +materialized: table
