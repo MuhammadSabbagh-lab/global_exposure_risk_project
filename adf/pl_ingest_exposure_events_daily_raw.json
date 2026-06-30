@@ -1,0 +1,74 @@
+{
+    "name": "pl_ingest_exposure_events_daily_raw",
+    "properties": {
+        "activities": [
+            {
+                "name": "copy_latest_exposure_events_to_raw",
+                "type": "Copy",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "DelimitedTextSource",
+                        "storeSettings": {
+                            "type": "HttpReadSettings",
+                            "requestMethod": "GET"
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextReadSettings"
+                        }
+                    },
+                    "sink": {
+                        "type": "DelimitedTextSink",
+                        "storeSettings": {
+                            "type": "AzureBlobFSWriteSettings"
+                        },
+                        "formatSettings": {
+                            "type": "DelimitedTextWriteSettings",
+                            "quoteAllText": true,
+                            "fileExtension": ".txt"
+                        }
+                    },
+                    "enableStaging": false,
+                    "translator": {
+                        "type": "TabularTranslator",
+                        "typeConversion": true,
+                        "typeConversionSettings": {
+                            "allowDataTruncation": true,
+                            "treatBooleanAsNumber": false
+                        }
+                    }
+                },
+                "inputs": [
+                    {
+                        "referenceName": "ds_http_latest_exposure_events_csv",
+                        "type": "DatasetReference",
+                        "parameters": {
+                            "relative_url": "MuhammadSabbagh-lab/global_exposure_risk_project/main/source_data/latest/exposure_events_latest.csv"
+                        }
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "ds_adls_raw_exposure_events_csv",
+                        "type": "DatasetReference",
+                        "parameters": {
+                            "directory": "@concat('exposure/events/ingestion_date=', formatDateTime(utcNow(), 'yyyy-MM-dd'))",
+                            "file_name": "@concat('exposure_events_', formatDateTime(utcNow(), 'yyyyMMdd_HHmmss'), '.csv')"
+                        }
+                    }
+                ]
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2026-06-25T15:48:44Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}

@@ -1,0 +1,57 @@
+{
+    "name": "pl_daily_exposure_risk_end_to_end",
+    "properties": {
+        "activities": [
+            {
+                "name": "run_exposure_risk_dbt_models",
+                "type": "DatabricksJob",
+                "dependsOn": [
+                    {
+                        "activity": "run_global_exposure_bronze_silver_gold",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "jobId": "177170344246167"
+                },
+                "linkedServiceName": {
+                    "referenceName": "ls_azuredatabricks_exposure",
+                    "type": "LinkedServiceReference"
+                }
+            },
+            {
+                "name": "run_global_exposure_bronze_silver_gold",
+                "type": "DatabricksJob",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "jobId": "30069815012727"
+                },
+                "linkedServiceName": {
+                    "referenceName": "ls_azuredatabricks_exposure",
+                    "type": "LinkedServiceReference"
+                }
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2026-06-30T13:26:58Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}
