@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0003-7306,,2026-07-01,2026-07-01T10:38:59.417699+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Cyclone,2,11500000,A,103500.0,92000.0,0
-QTE-0003-7307,,2026-07-01,2026-07-01T10:38:59.417699+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Earthquake,3,46500000,A,488250.0,558000.0,0
-QTE-0003-7308,POL-0003-7308,2026-07-01,2026-07-01T10:38:59.417699+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Earthquake,2,23000000,B,196650.0,184000.0,1
-QTE-0003-7309,,2026-07-01,2026-07-01T10:38:59.417699+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Drought,3,9500000,B,94762.5,114000.0,0
-QTE-0003-7310,,2026-07-01,2026-07-01T10:38:59.417699+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Retail Site,Earthquake,3,17000000,B,169575.0,204000.0,0
+QTE-0004-7311,POL-0004-7311,2026-07-02,2026-07-02T09:56:21.490308+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Retail Site,Flood,3,49000000,A,514500.0,588000.0,1
+QTE-0004-7312,POL-0004-7312,2026-07-02,2026-07-02T09:56:21.490308+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Energy Site,Cyclone,4,27000000,B,307800.0,432000.0,1
+QTE-0004-7313,,2026-07-02,2026-07-02T09:56:21.490308+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Flood,3,31000000,A,325500.0,372000.0,0
+QTE-0004-7314,,2026-07-02,2026-07-02T09:56:21.490308+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Earthquake,5,26500000,B,339862.5,530000.0,0
+QTE-0004-7315,,2026-07-02,2026-07-02T09:56:21.490308+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Cyclone,2,6500000,B,55575.0,52000.0,0
