@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0005-7316,POL-0005-7316,2026-07-03,2026-07-03T09:52:58.617682+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Earthquake,3,9000000,B,89775.0,108000.0,1
-QTE-0005-7317,,2026-07-03,2026-07-03T09:52:58.617682+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Flood,1,22000000,B,156750.0,88000.0,0
-QTE-0005-7318,POL-0005-7318,2026-07-03,2026-07-03T09:52:58.617682+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Warehouse,Cyclone,2,41000000,B,350550.0,328000.0,1
-QTE-0005-7319,,2026-07-03,2026-07-03T09:52:58.617682+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Wildfire,2,33000000,B,282150.0,264000.0,0
-QTE-0005-7320,POL-0005-7320,2026-07-03,2026-07-03T09:52:58.617682+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Flood,3,48500000,A,509250.0,582000.0,1
+QTE-0006-7321,,2026-07-04,2026-07-04T09:17:20.099096+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Wildfire,2,13000000,B,111150.0,104000.0,0
+QTE-0006-7322,,2026-07-04,2026-07-04T09:17:20.099096+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Flood,2,25500000,A,229500.0,204000.0,0
+QTE-0006-7323,POL-0006-7323,2026-07-04,2026-07-04T09:17:20.099096+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Flood,1,35000000,A,262500.0,140000.0,1
+QTE-0006-7324,,2026-07-04,2026-07-04T09:17:20.099096+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Retail Site,Flood,2,14000000,B,119700.0,112000.0,0
+QTE-0006-7325,POL-0006-7325,2026-07-04,2026-07-04T09:17:20.099096+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Retail Site,Drought,1,41500000,B,295687.5,166000.0,1
