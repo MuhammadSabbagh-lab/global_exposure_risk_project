@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0009-7336,,2026-07-07,2026-07-07T10:20:53.497581+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Office,Earthquake,1,31500000,A,236250.0,126000.0,0
-QTE-0009-7337,,2026-07-07,2026-07-07T10:20:53.497581+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Drought,4,19000000,B,216600.0,304000.0,0
-QTE-0009-7338,,2026-07-07,2026-07-07T10:20:53.497581+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Retail Site,Drought,5,40500000,A,546750.0,810000.0,0
-QTE-0009-7339,,2026-07-07,2026-07-07T10:20:53.497581+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Earthquake,5,16500000,A,222750.0,330000.0,0
-QTE-0009-7340,,2026-07-07,2026-07-07T10:20:53.497581+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Energy Site,Drought,1,6000000,B,42750.0,24000.0,0
+QTE-0010-7341,POL-0010-7341,2026-07-08,2026-07-08T09:22:47.185559+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Retail Site,Earthquake,5,43500000,B,557887.5,870000.0,1
+QTE-0010-7342,,2026-07-08,2026-07-08T09:22:47.185559+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Retail Site,Cyclone,4,27000000,A,324000.0,432000.0,0
+QTE-0010-7343,POL-0010-7343,2026-07-08,2026-07-08T09:22:47.185559+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Flood,2,17500000,B,149625.0,140000.0,1
+QTE-0010-7344,,2026-07-08,2026-07-08T09:22:47.185559+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Factory,Earthquake,5,21000000,B,269325.0,420000.0,0
+QTE-0010-7345,,2026-07-08,2026-07-08T09:22:47.185559+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Warehouse,Cyclone,3,41500000,B,413962.5,498000.0,0
