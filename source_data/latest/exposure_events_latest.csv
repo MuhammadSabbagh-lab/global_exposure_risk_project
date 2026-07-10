@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0011-7346,,2026-07-09,2026-07-09T10:24:51.646804+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Energy Site,Flood,2,43500000,A,391500.0,348000.0,0
-QTE-0011-7347,POL-0011-7347,2026-07-09,2026-07-09T10:24:51.646804+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Wildfire,3,37000000,B,369075.0,444000.0,1
-QTE-0011-7348,POL-0011-7348,2026-07-09,2026-07-09T10:24:51.646804+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Retail Site,Cyclone,1,22500000,B,160312.5,90000.0,1
-QTE-0011-7349,,2026-07-09,2026-07-09T10:24:51.646804+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Drought,1,34500000,B,245812.5,138000.0,0
-QTE-0011-7350,,2026-07-09,2026-07-09T10:24:51.646804+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Factory,Drought,2,7000000,A,63000.0,56000.0,0
+QTE-0012-7351,POL-0012-7351,2026-07-10,2026-07-10T10:18:11.930506+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Office,Flood,5,27500000,A,371250.0,550000.0,1
+QTE-0012-7352,POL-0012-7352,2026-07-10,2026-07-10T10:18:11.930506+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Flood,2,35000000,B,299250.0,280000.0,1
+QTE-0012-7353,POL-0012-7353,2026-07-10,2026-07-10T10:18:11.930506+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Wildfire,2,8500000,A,76500.0,68000.0,1
+QTE-0012-7354,,2026-07-10,2026-07-10T10:18:11.930506+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Earthquake,2,36500000,B,312075.0,292000.0,0
+QTE-0012-7355,POL-0012-7355,2026-07-10,2026-07-10T10:18:11.930506+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Retail Site,Flood,5,29500000,B,378337.5,590000.0,1
