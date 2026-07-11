@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0012-7351,POL-0012-7351,2026-07-10,2026-07-10T10:18:11.930506+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Office,Flood,5,27500000,A,371250.0,550000.0,1
-QTE-0012-7352,POL-0012-7352,2026-07-10,2026-07-10T10:18:11.930506+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Flood,2,35000000,B,299250.0,280000.0,1
-QTE-0012-7353,POL-0012-7353,2026-07-10,2026-07-10T10:18:11.930506+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Wildfire,2,8500000,A,76500.0,68000.0,1
-QTE-0012-7354,,2026-07-10,2026-07-10T10:18:11.930506+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Earthquake,2,36500000,B,312075.0,292000.0,0
-QTE-0012-7355,POL-0012-7355,2026-07-10,2026-07-10T10:18:11.930506+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Retail Site,Flood,5,29500000,B,378337.5,590000.0,1
+QTE-0013-7356,,2026-07-11,2026-07-11T08:43:29.657738+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Wildfire,5,39500000,B,506587.5,790000.0,0
+QTE-0013-7357,POL-0013-7357,2026-07-11,2026-07-11T08:43:29.657738+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Flood,2,42500000,B,363375.0,340000.0,1
+QTE-0013-7358,,2026-07-11,2026-07-11T08:43:29.657738+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Factory,Drought,3,16500000,B,164587.5,198000.0,0
+QTE-0013-7359,,2026-07-11,2026-07-11T08:43:29.657738+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Retail Site,Earthquake,1,6500000,A,48750.0,26000.0,0
+QTE-0013-7360,,2026-07-11,2026-07-11T08:43:29.657738+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Earthquake,1,34500000,B,245812.5,138000.0,0
