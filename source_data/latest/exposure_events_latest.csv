@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0013-7356,,2026-07-11,2026-07-11T08:43:29.657738+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Wildfire,5,39500000,B,506587.5,790000.0,0
-QTE-0013-7357,POL-0013-7357,2026-07-11,2026-07-11T08:43:29.657738+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Flood,2,42500000,B,363375.0,340000.0,1
-QTE-0013-7358,,2026-07-11,2026-07-11T08:43:29.657738+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Factory,Drought,3,16500000,B,164587.5,198000.0,0
-QTE-0013-7359,,2026-07-11,2026-07-11T08:43:29.657738+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Retail Site,Earthquake,1,6500000,A,48750.0,26000.0,0
-QTE-0013-7360,,2026-07-11,2026-07-11T08:43:29.657738+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Earthquake,1,34500000,B,245812.5,138000.0,0
+QTE-0014-7361,POL-0014-7361,2026-07-12,2026-07-12T08:59:36.656218+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Energy Site,Cyclone,2,11500000,B,98325.0,92000.0,1
+QTE-0014-7362,,2026-07-12,2026-07-12T08:59:36.656218+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Wildfire,1,7000000,B,49875.0,28000.0,0
+QTE-0014-7363,,2026-07-12,2026-07-12T08:59:36.656218+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Earthquake,2,48500000,A,436500.0,388000.0,0
+QTE-0014-7364,POL-0014-7364,2026-07-12,2026-07-12T08:59:36.656218+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Energy Site,Drought,4,23000000,A,276000.0,368000.0,1
+QTE-0014-7365,,2026-07-12,2026-07-12T08:59:36.656218+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Flood,3,40000000,B,399000.0,480000.0,0
