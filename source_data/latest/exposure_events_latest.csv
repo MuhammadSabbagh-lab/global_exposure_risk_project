@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0014-7361,POL-0014-7361,2026-07-12,2026-07-12T08:59:36.656218+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Energy Site,Cyclone,2,11500000,B,98325.0,92000.0,1
-QTE-0014-7362,,2026-07-12,2026-07-12T08:59:36.656218+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Wildfire,1,7000000,B,49875.0,28000.0,0
-QTE-0014-7363,,2026-07-12,2026-07-12T08:59:36.656218+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Earthquake,2,48500000,A,436500.0,388000.0,0
-QTE-0014-7364,POL-0014-7364,2026-07-12,2026-07-12T08:59:36.656218+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Energy Site,Drought,4,23000000,A,276000.0,368000.0,1
-QTE-0014-7365,,2026-07-12,2026-07-12T08:59:36.656218+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Flood,3,40000000,B,399000.0,480000.0,0
+QTE-0015-7366,POL-0015-7366,2026-07-13,2026-07-13T10:18:45.954626+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Drought,2,44000000,B,376200.0,352000.0,1
+QTE-0015-7367,,2026-07-13,2026-07-13T10:18:45.954626+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Factory,Wildfire,3,18500000,A,194250.0,222000.0,0
+QTE-0015-7368,,2026-07-13,2026-07-13T10:18:45.954626+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Warehouse,Drought,2,17500000,A,157500.0,140000.0,0
+QTE-0015-7369,POL-0015-7369,2026-07-13,2026-07-13T10:18:45.954626+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Energy Site,Drought,4,24000000,A,288000.0,384000.0,1
+QTE-0015-7370,POL-0015-7370,2026-07-13,2026-07-13T10:18:45.954626+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Wildfire,3,19000000,B,189525.0,228000.0,1
