@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0021-7396,POL-0021-7396,2026-07-19,2026-07-19T09:02:37.296480+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Drought,2,40000000,A,360000.0,320000.0,1
-QTE-0021-7397,,2026-07-19,2026-07-19T09:02:37.296480+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Earthquake,2,47000000,A,423000.0,376000.0,0
-QTE-0021-7398,,2026-07-19,2026-07-19T09:02:37.296480+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Office,Flood,3,32000000,A,336000.0,384000.0,0
-QTE-0021-7399,,2026-07-19,2026-07-19T09:02:37.296480+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Flood,3,19000000,B,189525.0,228000.0,0
-QTE-0021-7400,POL-0021-7400,2026-07-19,2026-07-19T09:02:37.296480+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Retail Site,Drought,2,28500000,A,256500.0,228000.0,1
+QTE-0022-7401,,2026-07-20,2026-07-20T09:53:15.444732+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Flood,3,5500000,B,54862.5,66000.0,0
+QTE-0022-7402,POL-0022-7402,2026-07-20,2026-07-20T09:53:15.444732+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Wildfire,2,43500000,A,391500.0,348000.0,1
+QTE-0022-7403,,2026-07-20,2026-07-20T09:53:15.444732+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Cyclone,2,16500000,A,148500.0,132000.0,0
+QTE-0022-7404,POL-0022-7404,2026-07-20,2026-07-20T09:53:15.444732+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Cyclone,3,29000000,B,289275.0,348000.0,1
+QTE-0022-7405,POL-0022-7405,2026-07-20,2026-07-20T09:53:15.444732+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Warehouse,Flood,2,8000000,B,68400.0,64000.0,1
