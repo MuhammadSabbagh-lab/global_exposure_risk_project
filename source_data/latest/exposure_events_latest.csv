@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0024-7411,,2026-07-22,2026-07-22T09:23:14.557532+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Energy Site,Flood,3,18000000,B,179550.0,216000.0,0
-QTE-0024-7412,,2026-07-22,2026-07-22T09:23:14.557532+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Wildfire,2,29000000,A,261000.0,232000.0,0
-QTE-0024-7413,POL-0024-7413,2026-07-22,2026-07-22T09:23:14.557532+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Wildfire,2,15500000,B,132525.0,124000.0,1
-QTE-0024-7414,POL-0024-7414,2026-07-22,2026-07-22T09:23:14.557532+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Warehouse,Flood,3,18500000,B,184537.5,222000.0,1
-QTE-0024-7415,,2026-07-22,2026-07-22T09:23:14.557532+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Office,Drought,2,47500000,B,406125.0,380000.0,0
+QTE-0025-7416,,2026-07-23,2026-07-23T09:21:31.152717+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Cyclone,2,48000000,B,410400.0,384000.0,0
+QTE-0025-7417,,2026-07-23,2026-07-23T09:21:31.152717+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Warehouse,Flood,3,40500000,A,425250.0,486000.0,0
+QTE-0025-7418,POL-0025-7418,2026-07-23,2026-07-23T09:21:31.152717+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Retail Site,Drought,1,48500000,B,345562.5,194000.0,1
+QTE-0025-7419,,2026-07-23,2026-07-23T09:21:31.152717+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Cyclone,1,49500000,A,371250.0,198000.0,0
+QTE-0025-7420,,2026-07-23,2026-07-23T09:21:31.152717+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Drought,3,47000000,A,493500.0,564000.0,0
