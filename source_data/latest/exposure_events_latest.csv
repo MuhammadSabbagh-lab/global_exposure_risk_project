@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0027-7426,,2026-07-25,2026-07-25T08:56:29.762350+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Earthquake,3,6500000,B,64837.5,78000.0,0
-QTE-0027-7427,,2026-07-25,2026-07-25T08:56:29.762350+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Warehouse,Wildfire,2,37000000,B,316350.0,296000.0,0
-QTE-0027-7428,,2026-07-25,2026-07-25T08:56:29.762350+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Wildfire,2,19500000,A,175500.0,156000.0,0
-QTE-0027-7429,POL-0027-7429,2026-07-25,2026-07-25T08:56:29.762350+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Warehouse,Drought,4,40000000,B,456000.0,640000.0,1
-QTE-0027-7430,,2026-07-25,2026-07-25T08:56:29.762350+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Retail Site,Flood,2,15500000,A,139500.0,124000.0,0
+QTE-0028-7431,,2026-07-26,2026-07-26T09:08:28.716414+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Drought,4,12000000,A,144000.0,192000.0,0
+QTE-0028-7432,,2026-07-26,2026-07-26T09:08:28.716414+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Flood,3,8000000,A,84000.0,96000.0,0
+QTE-0028-7433,POL-0028-7433,2026-07-26,2026-07-26T09:08:28.716414+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Wildfire,3,32000000,A,336000.0,384000.0,1
+QTE-0028-7434,,2026-07-26,2026-07-26T09:08:28.716414+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Earthquake,5,5500000,A,74250.0,110000.0,0
+QTE-0028-7435,,2026-07-26,2026-07-26T09:08:28.716414+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Warehouse,Earthquake,1,46000000,B,327750.0,184000.0,0
