@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0033-7456,POL-0033-7456,2026-07-31,2026-07-31T09:38:38.622379+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Flood,2,6000000,B,51300.0,48000.0,1
-QTE-0033-7457,POL-0033-7457,2026-07-31,2026-07-31T09:38:38.622379+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Earthquake,2,34500000,A,310500.0,276000.0,1
-QTE-0033-7458,POL-0033-7458,2026-07-31,2026-07-31T09:38:38.622379+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Flood,1,34000000,B,242250.0,136000.0,1
-QTE-0033-7459,,2026-07-31,2026-07-31T09:38:38.622379+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Drought,2,18000000,A,162000.0,144000.0,0
-QTE-0033-7460,POL-0033-7460,2026-07-31,2026-07-31T09:38:38.622379+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Office,Drought,1,46500000,A,348750.0,186000.0,1
+QTE-0034-7461,,2026-08-01,2026-08-01T09:01:29.336623+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Warehouse,Cyclone,1,11500000,B,81937.5,46000.0,0
+QTE-0034-7462,POL-0034-7462,2026-08-01,2026-08-01T09:01:29.336623+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Wildfire,3,10000000,A,105000.0,120000.0,1
+QTE-0034-7463,POL-0034-7463,2026-08-01,2026-08-01T09:01:29.336623+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Wildfire,2,29500000,A,265500.0,236000.0,1
+QTE-0034-7464,,2026-08-01,2026-08-01T09:01:29.336623+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Office,Earthquake,3,25000000,A,262500.0,300000.0,0
+QTE-0034-7465,POL-0034-7465,2026-08-01,2026-08-01T09:01:29.336623+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Warehouse,Wildfire,2,5500000,B,47025.0,44000.0,1
