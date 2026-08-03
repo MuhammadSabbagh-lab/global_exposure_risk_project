@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0035-7466,POL-0035-7466,2026-08-02,2026-08-02T09:05:50.208073+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Flood,5,29000000,B,371925.0,580000.0,1
-QTE-0035-7467,,2026-08-02,2026-08-02T09:05:50.208073+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Energy Site,Drought,4,5000000,A,60000.0,80000.0,0
-QTE-0035-7468,POL-0035-7468,2026-08-02,2026-08-02T09:05:50.208073+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Energy Site,Flood,2,48500000,B,414675.0,388000.0,1
-QTE-0035-7469,,2026-08-02,2026-08-02T09:05:50.208073+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Wildfire,1,13000000,A,97500.0,52000.0,0
-QTE-0035-7470,POL-0035-7470,2026-08-02,2026-08-02T09:05:50.208073+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Wildfire,1,40000000,B,285000.0,160000.0,1
+QTE-0036-7471,POL-0036-7471,2026-08-03,2026-08-03T10:35:53.304436+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Factory,Wildfire,1,36500000,B,260062.5,146000.0,1
+QTE-0036-7472,,2026-08-03,2026-08-03T10:35:53.304436+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Earthquake,5,40000000,B,513000.0,800000.0,0
+QTE-0036-7473,POL-0036-7473,2026-08-03,2026-08-03T10:35:53.304436+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Flood,2,8000000,B,68400.0,64000.0,1
+QTE-0036-7474,POL-0036-7474,2026-08-03,2026-08-03T10:35:53.304436+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Cyclone,1,42500000,A,318750.0,170000.0,1
+QTE-0036-7475,,2026-08-03,2026-08-03T10:35:53.304436+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Wildfire,3,13500000,B,134662.5,162000.0,0
