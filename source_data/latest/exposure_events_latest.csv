@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0040-7491,,2026-08-07,2026-08-07T08:09:31.622280+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Factory,Drought,3,42500000,B,423937.5,510000.0,0
-QTE-0040-7492,,2026-08-07,2026-08-07T08:09:31.622280+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Drought,3,14500000,A,152250.0,174000.0,0
-QTE-0040-7493,,2026-08-07,2026-08-07T08:09:31.622280+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Retail Site,Flood,5,40000000,A,540000.0,800000.0,0
-QTE-0040-7494,POL-0040-7494,2026-08-07,2026-08-07T08:09:31.622280+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Warehouse,Wildfire,2,8000000,B,68400.0,64000.0,1
-QTE-0040-7495,POL-0040-7495,2026-08-07,2026-08-07T08:09:31.622280+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Cyclone,2,20500000,A,184500.0,164000.0,1
+QTE-0041-7496,POL-0041-7496,2026-08-08,2026-08-08T07:42:29.585962+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Office,Earthquake,2,8500000,A,76500.0,68000.0,1
+QTE-0041-7497,,2026-08-08,2026-08-08T07:42:29.585962+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Retail Site,Flood,3,40500000,A,425250.0,486000.0,0
+QTE-0041-7498,POL-0041-7498,2026-08-08,2026-08-08T07:42:29.585962+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Earthquake,3,14000000,A,147000.0,168000.0,1
+QTE-0041-7499,,2026-08-08,2026-08-08T07:42:29.585962+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Earthquake,3,42000000,B,418950.0,504000.0,0
+QTE-0041-7500,,2026-08-08,2026-08-08T07:42:29.585962+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Flood,2,46500000,B,397575.0,372000.0,0
