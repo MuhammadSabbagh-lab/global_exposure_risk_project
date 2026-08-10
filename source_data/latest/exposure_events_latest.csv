@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0042-7501,POL-0042-7501,2026-08-09,2026-08-09T07:48:17.877558+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Cyclone,2,29000000,B,247950.0,232000.0,1
-QTE-0042-7502,POL-0042-7502,2026-08-09,2026-08-09T07:48:17.877558+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Cyclone,2,31500000,A,283500.0,252000.0,1
-QTE-0042-7503,POL-0042-7503,2026-08-09,2026-08-09T07:48:17.877558+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Cyclone,3,12500000,B,124687.5,150000.0,1
-QTE-0042-7504,POL-0042-7504,2026-08-09,2026-08-09T07:48:17.877558+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Retail Site,Earthquake,3,26500000,B,264337.5,318000.0,1
-QTE-0042-7505,POL-0042-7505,2026-08-09,2026-08-09T07:48:17.877558+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Retail Site,Cyclone,2,41500000,B,354825.0,332000.0,1
+QTE-0043-7506,POL-0043-7506,2026-08-10,2026-08-10T08:23:07.639059+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Wildfire,2,39000000,B,333450.0,312000.0,1
+QTE-0043-7507,,2026-08-10,2026-08-10T08:23:07.639059+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Cyclone,2,30000000,B,256500.0,240000.0,0
+QTE-0043-7508,,2026-08-10,2026-08-10T08:23:07.639059+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Cyclone,1,22500000,B,160312.5,90000.0,0
+QTE-0043-7509,POL-0043-7509,2026-08-10,2026-08-10T08:23:07.639059+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Factory,Wildfire,2,8500000,A,76500.0,68000.0,1
+QTE-0043-7510,,2026-08-10,2026-08-10T08:23:07.639059+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Office,Wildfire,1,11500000,B,81937.5,46000.0,0
