@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0043-7506,POL-0043-7506,2026-08-10,2026-08-10T08:23:07.639059+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Wildfire,2,39000000,B,333450.0,312000.0,1
-QTE-0043-7507,,2026-08-10,2026-08-10T08:23:07.639059+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Cyclone,2,30000000,B,256500.0,240000.0,0
-QTE-0043-7508,,2026-08-10,2026-08-10T08:23:07.639059+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Cyclone,1,22500000,B,160312.5,90000.0,0
-QTE-0043-7509,POL-0043-7509,2026-08-10,2026-08-10T08:23:07.639059+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Factory,Wildfire,2,8500000,A,76500.0,68000.0,1
-QTE-0043-7510,,2026-08-10,2026-08-10T08:23:07.639059+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Office,Wildfire,1,11500000,B,81937.5,46000.0,0
+QTE-0044-7511,,2026-08-11,2026-08-11T08:06:47.134816+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Flood,3,24000000,A,252000.0,288000.0,0
+QTE-0044-7512,,2026-08-11,2026-08-11T08:06:47.134816+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Warehouse,Cyclone,4,34500000,A,414000.0,552000.0,0
+QTE-0044-7513,,2026-08-11,2026-08-11T08:06:47.134816+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Earthquake,2,33000000,B,282150.0,264000.0,0
+QTE-0044-7514,,2026-08-11,2026-08-11T08:06:47.134816+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Factory,Earthquake,2,29000000,A,261000.0,232000.0,0
+QTE-0044-7515,POL-0044-7515,2026-08-11,2026-08-11T08:06:47.134816+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Office,Earthquake,1,7500000,B,53437.5,30000.0,1
