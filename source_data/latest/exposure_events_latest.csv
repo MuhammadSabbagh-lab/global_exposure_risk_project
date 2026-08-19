@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0051-7546,POL-0051-7546,2026-08-18,2026-08-18T07:31:49.897353+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Office,Cyclone,3,37000000,B,369075.0,444000.0,1
-QTE-0051-7547,,2026-08-18,2026-08-18T07:31:49.897353+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Flood,2,23500000,A,211500.0,188000.0,0
-QTE-0051-7548,POL-0051-7548,2026-08-18,2026-08-18T07:31:49.897353+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Warehouse,Drought,4,40000000,B,456000.0,640000.0,1
-QTE-0051-7549,POL-0051-7549,2026-08-18,2026-08-18T07:31:49.897353+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Retail Site,Wildfire,3,25500000,B,254362.5,306000.0,1
-QTE-0051-7550,POL-0051-7550,2026-08-18,2026-08-18T07:31:49.897353+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Office,Drought,2,8000000,A,72000.0,64000.0,1
+QTE-0052-7551,POL-0052-7551,2026-08-19,2026-08-19T07:32:15.885505+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Cyclone,2,19500000,B,166725.0,156000.0,1
+QTE-0052-7552,POL-0052-7552,2026-08-19,2026-08-19T07:32:15.885505+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Flood,3,28000000,B,279300.0,336000.0,1
+QTE-0052-7553,,2026-08-19,2026-08-19T07:32:15.885505+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Drought,2,33000000,A,297000.0,264000.0,0
+QTE-0052-7554,POL-0052-7554,2026-08-19,2026-08-19T07:32:15.885505+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Retail Site,Wildfire,2,26500000,B,226575.0,212000.0,1
+QTE-0052-7555,,2026-08-19,2026-08-19T07:32:15.885505+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Retail Site,Flood,4,27000000,A,324000.0,432000.0,0
