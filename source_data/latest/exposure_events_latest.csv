@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0054-7561,,2026-08-21,2026-08-21T07:36:52.465330+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Warehouse,Cyclone,3,34000000,A,357000.0,408000.0,0
-QTE-0054-7562,,2026-08-21,2026-08-21T07:36:52.465330+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Earthquake,3,12000000,A,126000.0,144000.0,0
-QTE-0054-7563,,2026-08-21,2026-08-21T07:36:52.465330+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Drought,5,7500000,B,96187.5,150000.0,0
-QTE-0054-7564,POL-0054-7564,2026-08-21,2026-08-21T07:36:52.465330+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Warehouse,Drought,2,39500000,A,355500.0,316000.0,1
-QTE-0054-7565,,2026-08-21,2026-08-21T07:36:52.465330+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Earthquake,2,27000000,A,243000.0,216000.0,0
+QTE-0055-7566,POL-0055-7566,2026-08-22,2026-08-22T07:25:13.431680+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Factory,Cyclone,2,24000000,A,216000.0,192000.0,1
+QTE-0055-7567,,2026-08-22,2026-08-22T07:25:13.431680+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Earthquake,5,48000000,B,615600.0,960000.0,0
+QTE-0055-7568,,2026-08-22,2026-08-22T07:25:13.431680+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Flood,2,15000000,B,128250.0,120000.0,0
+QTE-0055-7569,POL-0055-7569,2026-08-22,2026-08-22T07:25:13.431680+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Flood,3,26500000,A,278250.0,318000.0,1
+QTE-0055-7570,,2026-08-22,2026-08-22T07:25:13.431680+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Warehouse,Drought,3,16500000,A,173250.0,198000.0,0
