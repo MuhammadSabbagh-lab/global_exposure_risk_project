@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0057-7576,,2026-08-24,2026-08-24T07:52:10.429933+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Cyclone,2,19000000,B,162450.0,152000.0,0
-QTE-0057-7577,POL-0057-7577,2026-08-24,2026-08-24T07:52:10.429933+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Factory,Wildfire,3,45000000,A,472500.0,540000.0,1
-QTE-0057-7578,,2026-08-24,2026-08-24T07:52:10.429933+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Retail Site,Wildfire,3,39000000,B,389025.0,468000.0,0
-QTE-0057-7579,POL-0057-7579,2026-08-24,2026-08-24T07:52:10.429933+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Warehouse,Wildfire,2,27500000,A,247500.0,220000.0,1
-QTE-0057-7580,POL-0057-7580,2026-08-24,2026-08-24T07:52:10.429933+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Retail Site,Earthquake,2,32000000,B,273600.0,256000.0,1
+QTE-0058-7581,POL-0058-7581,2026-08-25,2026-08-25T07:38:22.056751+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Factory,Wildfire,3,8000000,B,79800.0,96000.0,1
+QTE-0058-7582,,2026-08-25,2026-08-25T07:38:22.056751+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Wildfire,1,39000000,A,292500.0,156000.0,0
+QTE-0058-7583,POL-0058-7583,2026-08-25,2026-08-25T07:38:22.056751+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Cyclone,2,26500000,A,238500.0,212000.0,1
+QTE-0058-7584,POL-0058-7584,2026-08-25,2026-08-25T07:38:22.056751+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Earthquake,3,14000000,A,147000.0,168000.0,1
+QTE-0058-7585,,2026-08-25,2026-08-25T07:38:22.056751+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Retail Site,Drought,1,22000000,A,165000.0,88000.0,0
