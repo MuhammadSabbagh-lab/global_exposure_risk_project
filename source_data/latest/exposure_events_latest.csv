@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0058-7581,POL-0058-7581,2026-08-25,2026-08-25T07:38:22.056751+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Factory,Wildfire,3,8000000,B,79800.0,96000.0,1
-QTE-0058-7582,,2026-08-25,2026-08-25T07:38:22.056751+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Wildfire,1,39000000,A,292500.0,156000.0,0
-QTE-0058-7583,POL-0058-7583,2026-08-25,2026-08-25T07:38:22.056751+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Cyclone,2,26500000,A,238500.0,212000.0,1
-QTE-0058-7584,POL-0058-7584,2026-08-25,2026-08-25T07:38:22.056751+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Earthquake,3,14000000,A,147000.0,168000.0,1
-QTE-0058-7585,,2026-08-25,2026-08-25T07:38:22.056751+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Retail Site,Drought,1,22000000,A,165000.0,88000.0,0
+QTE-0059-7586,POL-0059-7586,2026-08-26,2026-08-26T07:40:19.693766+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Warehouse,Flood,5,28500000,B,365512.5,570000.0,1
+QTE-0059-7587,POL-0059-7587,2026-08-26,2026-08-26T07:40:19.693766+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Retail Site,Drought,3,23500000,B,234412.5,282000.0,1
+QTE-0059-7588,POL-0059-7588,2026-08-26,2026-08-26T07:40:19.693766+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Earthquake,1,34500000,B,245812.5,138000.0,1
+QTE-0059-7589,POL-0059-7589,2026-08-26,2026-08-26T07:40:19.693766+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Factory,Flood,4,8500000,A,102000.0,136000.0,1
+QTE-0059-7590,,2026-08-26,2026-08-26T07:40:19.693766+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Factory,Drought,3,18500000,A,194250.0,222000.0,0
