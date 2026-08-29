@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0061-7596,POL-0061-7596,2026-08-28,2026-08-28T19:11:19.172699+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Factory,Wildfire,2,38500000,A,346500.0,308000.0,1
-QTE-0061-7597,,2026-08-28,2026-08-28T19:11:19.172699+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Flood,3,30000000,A,315000.0,360000.0,0
-QTE-0061-7598,POL-0061-7598,2026-08-28,2026-08-28T19:11:19.172699+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Flood,3,18000000,B,179550.0,216000.0,1
-QTE-0061-7599,POL-0061-7599,2026-08-28,2026-08-28T19:11:19.172699+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Earthquake,3,28500000,A,299250.0,342000.0,1
-QTE-0061-7600,POL-0061-7600,2026-08-28,2026-08-28T19:11:19.172699+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Retail Site,Flood,3,14000000,A,147000.0,168000.0,1
+QTE-0062-7601,POL-0062-7601,2026-08-29,2026-08-29T12:54:49.212036+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Flood,1,44000000,B,313500.0,176000.0,1
+QTE-0062-7602,,2026-08-29,2026-08-29T12:54:49.212036+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Cyclone,1,41000000,A,307500.0,164000.0,0
+QTE-0062-7603,,2026-08-29,2026-08-29T12:54:49.212036+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Drought,3,5500000,A,57750.0,66000.0,0
+QTE-0062-7604,,2026-08-29,2026-08-29T12:54:49.212036+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Earthquake,3,21500000,A,225750.0,258000.0,0
+QTE-0062-7605,,2026-08-29,2026-08-29T12:54:49.212036+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Wildfire,2,5000000,B,42750.0,40000.0,0
