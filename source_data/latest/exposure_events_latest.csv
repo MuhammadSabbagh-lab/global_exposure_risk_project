@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0063-7606,POL-0063-7606,2026-08-30,2026-08-30T12:29:26.709950+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Warehouse,Drought,1,32500000,A,243750.0,130000.0,1
-QTE-0063-7607,POL-0063-7607,2026-08-30,2026-08-30T12:29:26.709950+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Office,Cyclone,4,13000000,B,148200.0,208000.0,1
-QTE-0063-7608,POL-0063-7608,2026-08-30,2026-08-30T12:29:26.709950+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Cyclone,2,8500000,A,76500.0,68000.0,1
-QTE-0063-7609,,2026-08-30,2026-08-30T12:29:26.709950+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Drought,3,17000000,A,178500.0,204000.0,0
-QTE-0063-7610,,2026-08-30,2026-08-30T12:29:26.709950+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Flood,3,8500000,A,89250.0,102000.0,0
+QTE-0064-7611,POL-0064-7611,2026-08-31,2026-08-31T14:42:53.823698+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Earthquake,2,15500000,A,139500.0,124000.0,1
+QTE-0064-7612,,2026-08-31,2026-08-31T14:42:53.823698+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Earthquake,3,31500000,B,314212.5,378000.0,0
+QTE-0064-7613,POL-0064-7613,2026-08-31,2026-08-31T14:42:53.823698+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Flood,1,37000000,A,277500.0,148000.0,1
+QTE-0064-7614,,2026-08-31,2026-08-31T14:42:53.823698+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Warehouse,Wildfire,2,17000000,B,145350.0,136000.0,0
+QTE-0064-7615,POL-0064-7615,2026-08-31,2026-08-31T14:42:53.823698+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Office,Flood,4,19500000,B,222300.0,312000.0,1
