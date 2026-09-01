@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0064-7611,POL-0064-7611,2026-08-31,2026-08-31T14:42:53.823698+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Earthquake,2,15500000,A,139500.0,124000.0,1
-QTE-0064-7612,,2026-08-31,2026-08-31T14:42:53.823698+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Earthquake,3,31500000,B,314212.5,378000.0,0
-QTE-0064-7613,POL-0064-7613,2026-08-31,2026-08-31T14:42:53.823698+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Flood,1,37000000,A,277500.0,148000.0,1
-QTE-0064-7614,,2026-08-31,2026-08-31T14:42:53.823698+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Warehouse,Wildfire,2,17000000,B,145350.0,136000.0,0
-QTE-0064-7615,POL-0064-7615,2026-08-31,2026-08-31T14:42:53.823698+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Office,Flood,4,19500000,B,222300.0,312000.0,1
+QTE-0065-7616,,2026-09-01,2026-09-01T12:16:20.707789+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Drought,1,38500000,A,288750.0,154000.0,0
+QTE-0065-7617,,2026-09-01,2026-09-01T12:16:20.707789+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Wildfire,5,33500000,A,452250.0,670000.0,0
+QTE-0065-7618,POL-0065-7618,2026-09-01,2026-09-01T12:16:20.707789+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Drought,4,37500000,B,427500.0,600000.0,1
+QTE-0065-7619,,2026-09-01,2026-09-01T12:16:20.707789+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Factory,Drought,3,35500000,B,354112.5,426000.0,0
+QTE-0065-7620,POL-0065-7620,2026-09-01,2026-09-01T12:16:20.707789+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Drought,4,23000000,A,276000.0,368000.0,1
