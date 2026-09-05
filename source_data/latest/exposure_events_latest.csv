@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0068-7631,,2026-09-04,2026-09-04T11:55:32.521692+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Energy Site,Wildfire,1,34500000,B,245812.5,138000.0,0
-QTE-0068-7632,POL-0068-7632,2026-09-04,2026-09-04T11:55:32.521692+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Factory,Wildfire,2,24000000,A,216000.0,192000.0,1
-QTE-0068-7633,POL-0068-7633,2026-09-04,2026-09-04T11:55:32.521692+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Flood,3,9500000,B,94762.5,114000.0,1
-QTE-0068-7634,,2026-09-04,2026-09-04T11:55:32.521692+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Retail Site,Flood,3,7000000,B,69825.0,84000.0,0
-QTE-0068-7635,,2026-09-04,2026-09-04T11:55:32.521692+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Cyclone,2,35000000,A,315000.0,280000.0,0
+QTE-0069-7636,POL-0069-7636,2026-09-05,2026-09-05T11:04:54.462080+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Flood,3,33500000,A,351750.0,402000.0,1
+QTE-0069-7637,POL-0069-7637,2026-09-05,2026-09-05T11:04:54.462080+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Warehouse,Cyclone,4,43000000,B,490200.0,688000.0,1
+QTE-0069-7638,,2026-09-05,2026-09-05T11:04:54.462080+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Factory,Cyclone,1,22000000,A,165000.0,88000.0,0
+QTE-0069-7639,,2026-09-05,2026-09-05T11:04:54.462080+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Cyclone,2,38500000,A,346500.0,308000.0,0
+QTE-0069-7640,,2026-09-05,2026-09-05T11:04:54.462080+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Cyclone,1,16500000,B,117562.5,66000.0,0
