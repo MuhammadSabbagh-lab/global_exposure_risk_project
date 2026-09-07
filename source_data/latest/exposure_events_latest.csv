@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0070-7641,POL-0070-7641,2026-09-06,2026-09-06T11:28:14.397989+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Cyclone,2,32500000,A,292500.0,260000.0,1
-QTE-0070-7642,,2026-09-06,2026-09-06T11:28:14.397989+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Cyclone,2,37000000,B,316350.0,296000.0,0
-QTE-0070-7643,POL-0070-7643,2026-09-06,2026-09-06T11:28:14.397989+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Flood,1,18500000,A,138750.0,74000.0,1
-QTE-0070-7644,,2026-09-06,2026-09-06T11:28:14.397989+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Cyclone,2,36000000,A,324000.0,288000.0,0
-QTE-0070-7645,POL-0070-7645,2026-09-06,2026-09-06T11:28:14.397989+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Retail Site,Wildfire,3,26500000,A,278250.0,318000.0,1
+QTE-0071-7646,,2026-09-07,2026-09-07T13:12:15.502662+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Office,Flood,5,17500000,B,224437.5,350000.0,0
+QTE-0071-7647,,2026-09-07,2026-09-07T13:12:15.502662+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Wildfire,2,26000000,A,234000.0,208000.0,0
+QTE-0071-7648,POL-0071-7648,2026-09-07,2026-09-07T13:12:15.502662+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Energy Site,Cyclone,2,31500000,B,269325.0,252000.0,1
+QTE-0071-7649,,2026-09-07,2026-09-07T13:12:15.502662+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Energy Site,Cyclone,4,14500000,A,174000.0,232000.0,0
+QTE-0071-7650,,2026-09-07,2026-09-07T13:12:15.502662+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Office,Cyclone,3,12000000,A,126000.0,144000.0,0
