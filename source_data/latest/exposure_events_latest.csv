@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0073-7656,,2026-09-09,2026-09-09T12:05:16.675138+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Cyclone,2,12500000,A,112500.0,100000.0,0
-QTE-0073-7657,,2026-09-09,2026-09-09T12:05:16.675138+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Warehouse,Flood,3,44000000,A,462000.0,528000.0,0
-QTE-0073-7658,POL-0073-7658,2026-09-09,2026-09-09T12:05:16.675138+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Office,Drought,2,43000000,B,367650.0,344000.0,1
-QTE-0073-7659,POL-0073-7659,2026-09-09,2026-09-09T12:05:16.675138+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Drought,2,29000000,A,261000.0,232000.0,1
-QTE-0073-7660,,2026-09-09,2026-09-09T12:05:16.675138+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Retail Site,Earthquake,2,12000000,A,108000.0,96000.0,0
+QTE-0074-7661,POL-0074-7661,2026-09-10,2026-09-10T11:59:36.483533+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Wildfire,2,42500000,A,382500.0,340000.0,1
+QTE-0074-7662,,2026-09-10,2026-09-10T11:59:36.483533+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Factory,Drought,1,29000000,A,217500.0,116000.0,0
+QTE-0074-7663,,2026-09-10,2026-09-10T11:59:36.483533+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Earthquake,5,47000000,B,602775.0,940000.0,0
+QTE-0074-7664,,2026-09-10,2026-09-10T11:59:36.483533+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Drought,4,48000000,B,547200.0,768000.0,0
+QTE-0074-7665,POL-0074-7665,2026-09-10,2026-09-10T11:59:36.483533+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Flood,3,47500000,B,473812.5,570000.0,1
