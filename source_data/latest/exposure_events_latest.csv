@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0085-7716,,2026-09-21,2026-09-21T13:31:41.204043+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Retail Site,Drought,4,28000000,A,336000.0,448000.0,0
-QTE-0085-7717,,2026-09-21,2026-09-21T13:31:41.204043+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Warehouse,Drought,1,32000000,B,228000.0,128000.0,0
-QTE-0085-7718,POL-0085-7718,2026-09-21,2026-09-21T13:31:41.204043+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Wildfire,2,25500000,B,218025.0,204000.0,1
-QTE-0085-7719,,2026-09-21,2026-09-21T13:31:41.204043+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Office,Wildfire,1,30500000,A,228750.0,122000.0,0
-QTE-0085-7720,POL-0085-7720,2026-09-21,2026-09-21T13:31:41.204043+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Factory,Cyclone,4,48000000,B,547200.0,768000.0,1
+QTE-0086-7721,POL-0086-7721,2026-09-22,2026-09-22T12:16:09.165202+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Earthquake,1,29000000,B,206625.0,116000.0,1
+QTE-0086-7722,POL-0086-7722,2026-09-22,2026-09-22T12:16:09.165202+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Warehouse,Wildfire,1,28500000,A,213750.0,114000.0,1
+QTE-0086-7723,,2026-09-22,2026-09-22T12:16:09.165202+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Energy Site,Wildfire,2,45000000,B,384750.0,360000.0,0
+QTE-0086-7724,POL-0086-7724,2026-09-22,2026-09-22T12:16:09.165202+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Flood,2,15000000,B,128250.0,120000.0,1
+QTE-0086-7725,POL-0086-7725,2026-09-22,2026-09-22T12:16:09.165202+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Flood,3,7000000,B,69825.0,84000.0,1
