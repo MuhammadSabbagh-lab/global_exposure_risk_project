@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0091-7746,,2026-09-27,2026-09-27T12:37:26.019393+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Drought,2,7500000,A,67500.0,60000.0,0
-QTE-0091-7747,POL-0091-7747,2026-09-27,2026-09-27T12:37:26.019393+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Office,Flood,3,17500000,B,174562.5,210000.0,1
-QTE-0091-7748,,2026-09-27,2026-09-27T12:37:26.019393+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Cyclone,3,19000000,A,199500.0,228000.0,0
-QTE-0091-7749,POL-0091-7749,2026-09-27,2026-09-27T12:37:26.019393+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Energy Site,Earthquake,1,10500000,A,78750.0,42000.0,1
-QTE-0091-7750,,2026-09-27,2026-09-27T12:37:26.019393+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Retail Site,Earthquake,3,49000000,B,488775.0,588000.0,0
+QTE-0092-7751,,2026-09-28,2026-09-28T14:49:56.453591+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Warehouse,Flood,2,23000000,A,207000.0,184000.0,0
+QTE-0092-7752,,2026-09-28,2026-09-28T14:49:56.453591+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Wildfire,1,5500000,B,39187.5,22000.0,0
+QTE-0092-7753,,2026-09-28,2026-09-28T14:49:56.453591+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Wildfire,5,40000000,B,513000.0,800000.0,0
+QTE-0092-7754,,2026-09-28,2026-09-28T14:49:56.453591+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Cyclone,2,24000000,B,205200.0,192000.0,0
+QTE-0092-7755,,2026-09-28,2026-09-28T14:49:56.453591+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Energy Site,Wildfire,1,37500000,B,267187.5,150000.0,0
