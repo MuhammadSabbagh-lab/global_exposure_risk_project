@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0093-7756,POL-0093-7756,2026-09-29,2026-09-29T13:38:42.382349+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Factory,Earthquake,2,42000000,A,378000.0,336000.0,1
-QTE-0093-7757,POL-0093-7757,2026-09-29,2026-09-29T13:38:42.382349+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Flood,3,21000000,B,209475.0,252000.0,1
-QTE-0093-7758,POL-0093-7758,2026-09-29,2026-09-29T13:38:42.382349+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Factory,Earthquake,1,15000000,B,106875.0,60000.0,1
-QTE-0093-7759,POL-0093-7759,2026-09-29,2026-09-29T13:38:42.382349+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Warehouse,Cyclone,4,15500000,A,186000.0,248000.0,1
-QTE-0093-7760,,2026-09-29,2026-09-29T13:38:42.382349+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Retail Site,Cyclone,4,6000000,A,72000.0,96000.0,0
+QTE-0094-7761,,2026-09-30,2026-09-30T13:14:10.914820+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Earthquake,2,28500000,B,243675.0,228000.0,0
+QTE-0094-7762,,2026-09-30,2026-09-30T13:14:10.914820+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Office,Earthquake,5,25500000,A,344250.0,510000.0,0
+QTE-0094-7763,,2026-09-30,2026-09-30T13:14:10.914820+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Flood,3,38000000,A,399000.0,456000.0,0
+QTE-0094-7764,,2026-09-30,2026-09-30T13:14:10.914820+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Wildfire,3,40500000,B,403987.5,486000.0,0
+QTE-0094-7765,POL-0094-7765,2026-09-30,2026-09-30T13:14:10.914820+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Drought,1,9500000,B,67687.5,38000.0,1
