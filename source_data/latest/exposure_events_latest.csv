@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0095-7766,POL-0095-7766,2026-10-01,2026-10-01T14:05:25.642155+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Wildfire,2,37000000,A,333000.0,296000.0,1
-QTE-0095-7767,,2026-10-01,2026-10-01T14:05:25.642155+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Drought,2,10000000,A,90000.0,80000.0,0
-QTE-0095-7768,,2026-10-01,2026-10-01T14:05:25.642155+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Wildfire,1,45000000,B,320625.0,180000.0,0
-QTE-0095-7769,POL-0095-7769,2026-10-01,2026-10-01T14:05:25.642155+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Office,Wildfire,1,39500000,A,296250.0,158000.0,1
-QTE-0095-7770,POL-0095-7770,2026-10-01,2026-10-01T14:05:25.642155+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Warehouse,Wildfire,1,25500000,B,181687.5,102000.0,1
+QTE-0096-7771,POL-0096-7771,2026-10-02,2026-10-02T13:26:11.583052+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Factory,Wildfire,2,23500000,B,200925.0,188000.0,1
+QTE-0096-7772,,2026-10-02,2026-10-02T13:26:11.583052+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Earthquake,5,36500000,B,468112.5,730000.0,0
+QTE-0096-7773,,2026-10-02,2026-10-02T13:26:11.583052+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Energy Site,Flood,4,20500000,A,246000.0,328000.0,0
+QTE-0096-7774,POL-0096-7774,2026-10-02,2026-10-02T13:26:11.583052+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Flood,3,17000000,A,178500.0,204000.0,1
+QTE-0096-7775,POL-0096-7775,2026-10-02,2026-10-02T13:26:11.583052+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Cyclone,3,12000000,B,119700.0,144000.0,1
