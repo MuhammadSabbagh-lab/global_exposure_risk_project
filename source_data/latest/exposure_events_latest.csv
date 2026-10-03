@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0096-7771,POL-0096-7771,2026-10-02,2026-10-02T13:26:11.583052+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Factory,Wildfire,2,23500000,B,200925.0,188000.0,1
-QTE-0096-7772,,2026-10-02,2026-10-02T13:26:11.583052+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Earthquake,5,36500000,B,468112.5,730000.0,0
-QTE-0096-7773,,2026-10-02,2026-10-02T13:26:11.583052+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Energy Site,Flood,4,20500000,A,246000.0,328000.0,0
-QTE-0096-7774,POL-0096-7774,2026-10-02,2026-10-02T13:26:11.583052+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Flood,3,17000000,A,178500.0,204000.0,1
-QTE-0096-7775,POL-0096-7775,2026-10-02,2026-10-02T13:26:11.583052+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Cyclone,3,12000000,B,119700.0,144000.0,1
+QTE-0097-7776,POL-0097-7776,2026-10-03,2026-10-03T12:11:09.134700+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Drought,3,44500000,A,467250.0,534000.0,1
+QTE-0097-7777,,2026-10-03,2026-10-03T12:11:09.134700+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Wildfire,3,13000000,A,136500.0,156000.0,0
+QTE-0097-7778,,2026-10-03,2026-10-03T12:11:09.134700+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Flood,2,47500000,A,427500.0,380000.0,0
+QTE-0097-7779,,2026-10-03,2026-10-03T12:11:09.134700+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Warehouse,Earthquake,5,43000000,B,551475.0,860000.0,0
+QTE-0097-7780,,2026-10-03,2026-10-03T12:11:09.134700+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Flood,3,31500000,A,330750.0,378000.0,0
