@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0097-7776,POL-0097-7776,2026-10-03,2026-10-03T12:11:09.134700+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Drought,3,44500000,A,467250.0,534000.0,1
-QTE-0097-7777,,2026-10-03,2026-10-03T12:11:09.134700+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Wildfire,3,13000000,A,136500.0,156000.0,0
-QTE-0097-7778,,2026-10-03,2026-10-03T12:11:09.134700+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Flood,2,47500000,A,427500.0,380000.0,0
-QTE-0097-7779,,2026-10-03,2026-10-03T12:11:09.134700+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Warehouse,Earthquake,5,43000000,B,551475.0,860000.0,0
-QTE-0097-7780,,2026-10-03,2026-10-03T12:11:09.134700+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Flood,3,31500000,A,330750.0,378000.0,0
+QTE-0098-7781,,2026-10-04,2026-10-04T12:59:39.712504+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Energy Site,Flood,1,28000000,A,210000.0,112000.0,0
+QTE-0098-7782,POL-0098-7782,2026-10-04,2026-10-04T12:59:39.712504+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Earthquake,2,14000000,A,126000.0,112000.0,1
+QTE-0098-7783,POL-0098-7783,2026-10-04,2026-10-04T12:59:39.712504+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Earthquake,1,13500000,B,96187.5,54000.0,1
+QTE-0098-7784,,2026-10-04,2026-10-04T12:59:39.712504+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Cyclone,1,21000000,A,157500.0,84000.0,0
+QTE-0098-7785,,2026-10-04,2026-10-04T12:59:39.712504+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Wildfire,2,42500000,B,363375.0,340000.0,0
