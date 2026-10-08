@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0101-7796,,2026-10-07,2026-10-07T14:07:46.910805+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Energy Site,Flood,2,7000000,A,63000.0,56000.0,0
-QTE-0101-7797,,2026-10-07,2026-10-07T14:07:46.910805+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Energy Site,Earthquake,5,19500000,B,250087.5,390000.0,0
-QTE-0101-7798,,2026-10-07,2026-10-07T14:07:46.910805+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Retail Site,Earthquake,3,19000000,A,199500.0,228000.0,0
-QTE-0101-7799,POL-0101-7799,2026-10-07,2026-10-07T14:07:46.910805+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Factory,Cyclone,4,38500000,B,438900.0,616000.0,1
-QTE-0101-7800,,2026-10-07,2026-10-07T14:07:46.910805+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Energy Site,Flood,4,15000000,B,171000.0,240000.0,0
+QTE-0102-7801,POL-0102-7801,2026-10-08,2026-10-08T14:18:10.098375+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Retail Site,Flood,2,40000000,B,342000.0,320000.0,1
+QTE-0102-7802,,2026-10-08,2026-10-08T14:18:10.098375+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Flood,5,16000000,A,216000.0,320000.0,0
+QTE-0102-7803,POL-0102-7803,2026-10-08,2026-10-08T14:18:10.098375+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Factory,Cyclone,4,19000000,A,228000.0,304000.0,1
+QTE-0102-7804,POL-0102-7804,2026-10-08,2026-10-08T14:18:10.098375+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Factory,Flood,2,38000000,A,342000.0,304000.0,1
+QTE-0102-7805,POL-0102-7805,2026-10-08,2026-10-08T14:18:10.098375+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Energy Site,Flood,2,15000000,B,128250.0,120000.0,1
