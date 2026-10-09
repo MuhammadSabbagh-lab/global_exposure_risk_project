@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0102-7801,POL-0102-7801,2026-10-08,2026-10-08T14:18:10.098375+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Retail Site,Flood,2,40000000,B,342000.0,320000.0,1
-QTE-0102-7802,,2026-10-08,2026-10-08T14:18:10.098375+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Flood,5,16000000,A,216000.0,320000.0,0
-QTE-0102-7803,POL-0102-7803,2026-10-08,2026-10-08T14:18:10.098375+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Factory,Cyclone,4,19000000,A,228000.0,304000.0,1
-QTE-0102-7804,POL-0102-7804,2026-10-08,2026-10-08T14:18:10.098375+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Factory,Flood,2,38000000,A,342000.0,304000.0,1
-QTE-0102-7805,POL-0102-7805,2026-10-08,2026-10-08T14:18:10.098375+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Energy Site,Flood,2,15000000,B,128250.0,120000.0,1
+QTE-0103-7806,POL-0103-7806,2026-10-09,2026-10-09T14:02:47.317676+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Flood,2,27000000,A,243000.0,216000.0,1
+QTE-0103-7807,,2026-10-09,2026-10-09T14:02:47.317676+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Factory,Cyclone,1,39500000,A,296250.0,158000.0,0
+QTE-0103-7808,,2026-10-09,2026-10-09T14:02:47.317676+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Cyclone,3,41500000,A,435750.0,498000.0,0
+QTE-0103-7809,POL-0103-7809,2026-10-09,2026-10-09T14:02:47.317676+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Earthquake,5,31000000,B,397575.0,620000.0,1
+QTE-0103-7810,POL-0103-7810,2026-10-09,2026-10-09T14:02:47.317676+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Flood,3,42500000,A,446250.0,510000.0,1
