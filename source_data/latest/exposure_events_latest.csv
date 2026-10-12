@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0105-7816,POL-0105-7816,2026-10-11,2026-10-11T13:42:19.126181+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Office,Flood,5,36500000,A,492750.0,730000.0,1
-QTE-0105-7817,POL-0105-7817,2026-10-11,2026-10-11T13:42:19.126181+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Drought,5,27000000,A,364500.0,540000.0,1
-QTE-0105-7818,,2026-10-11,2026-10-11T13:42:19.126181+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Office,Cyclone,2,20500000,A,184500.0,164000.0,0
-QTE-0105-7819,,2026-10-11,2026-10-11T13:42:19.126181+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Warehouse,Cyclone,4,44500000,A,534000.0,712000.0,0
-QTE-0105-7820,POL-0105-7820,2026-10-11,2026-10-11T13:42:19.126181+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Cyclone,1,31000000,B,220875.0,124000.0,1
+QTE-0106-7821,POL-0106-7821,2026-10-12,2026-10-12T16:23:10.452269+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Warehouse,Cyclone,1,29000000,A,217500.0,116000.0,1
+QTE-0106-7822,POL-0106-7822,2026-10-12,2026-10-12T16:23:10.452269+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Cyclone,2,34000000,A,306000.0,272000.0,1
+QTE-0106-7823,,2026-10-12,2026-10-12T16:23:10.452269+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Earthquake,2,21500000,A,193500.0,172000.0,0
+QTE-0106-7824,POL-0106-7824,2026-10-12,2026-10-12T16:23:10.452269+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Cyclone,1,14000000,A,105000.0,56000.0,1
+QTE-0106-7825,,2026-10-12,2026-10-12T16:23:10.452269+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Drought,4,34000000,A,408000.0,544000.0,0
