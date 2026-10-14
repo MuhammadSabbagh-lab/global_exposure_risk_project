@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0107-7826,,2026-10-13,2026-10-13T14:43:42.155802+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Retail Site,Wildfire,2,16000000,A,144000.0,128000.0,0
-QTE-0107-7827,POL-0107-7827,2026-10-13,2026-10-13T14:43:42.155802+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Flood,1,24500000,A,183750.0,98000.0,1
-QTE-0107-7828,,2026-10-13,2026-10-13T14:43:42.155802+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Cyclone,2,30500000,B,260775.0,244000.0,0
-QTE-0107-7829,,2026-10-13,2026-10-13T14:43:42.155802+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Flood,3,13000000,A,136500.0,156000.0,0
-QTE-0107-7830,,2026-10-13,2026-10-13T14:43:42.155802+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Wildfire,2,28000000,A,252000.0,224000.0,0
+QTE-0108-7831,,2026-10-14,2026-10-14T12:35:29.399302+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Energy Site,Flood,1,7000000,B,49875.0,28000.0,0
+QTE-0108-7832,POL-0108-7832,2026-10-14,2026-10-14T12:35:29.399302+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Flood,5,22000000,B,282150.0,440000.0,1
+QTE-0108-7833,POL-0108-7833,2026-10-14,2026-10-14T12:35:29.399302+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Retail Site,Wildfire,1,48000000,B,342000.0,192000.0,1
+QTE-0108-7834,POL-0108-7834,2026-10-14,2026-10-14T12:35:29.399302+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Factory,Cyclone,4,6000000,B,68400.0,96000.0,1
+QTE-0108-7835,,2026-10-14,2026-10-14T12:35:29.399302+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Wildfire,1,32000000,B,228000.0,128000.0,0
