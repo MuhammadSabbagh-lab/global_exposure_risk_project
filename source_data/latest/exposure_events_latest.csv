@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0109-7836,,2026-10-15,2026-10-15T12:22:21.940144+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Wildfire,3,44500000,B,443887.5,534000.0,0
-QTE-0109-7837,POL-0109-7837,2026-10-15,2026-10-15T12:22:21.940144+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Office,Wildfire,3,48500000,B,483787.5,582000.0,1
-QTE-0109-7838,POL-0109-7838,2026-10-15,2026-10-15T12:22:21.940144+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Cyclone,2,31000000,B,265050.0,248000.0,1
-QTE-0109-7839,POL-0109-7839,2026-10-15,2026-10-15T12:22:21.940144+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Flood,2,22500000,B,192375.0,180000.0,1
-QTE-0109-7840,POL-0109-7840,2026-10-15,2026-10-15T12:22:21.940144+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Retail Site,Wildfire,2,31000000,B,265050.0,248000.0,1
+QTE-0110-7841,POL-0110-7841,2026-10-16,2026-10-16T12:02:26.299463+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Cyclone,3,27500000,A,288750.0,330000.0,1
+QTE-0110-7842,,2026-10-16,2026-10-16T12:02:26.299463+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Warehouse,Earthquake,5,40000000,A,540000.0,800000.0,0
+QTE-0110-7843,,2026-10-16,2026-10-16T12:02:26.299463+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Cyclone,1,13000000,B,92625.0,52000.0,0
+QTE-0110-7844,,2026-10-16,2026-10-16T12:02:26.299463+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Warehouse,Earthquake,1,45500000,B,324187.5,182000.0,0
+QTE-0110-7845,POL-0110-7845,2026-10-16,2026-10-16T12:02:26.299463+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Office,Cyclone,2,9500000,B,81225.0,76000.0,1
