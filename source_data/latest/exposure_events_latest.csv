@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0112-7851,,2026-10-18,2026-10-18T11:54:08.087083+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Wildfire,3,47000000,A,493500.0,564000.0,0
-QTE-0112-7852,POL-0112-7852,2026-10-18,2026-10-18T11:54:08.087083+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Cyclone,1,42500000,A,318750.0,170000.0,1
-QTE-0112-7853,,2026-10-18,2026-10-18T11:54:08.087083+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Energy Site,Cyclone,3,20000000,B,199500.0,240000.0,0
-QTE-0112-7854,POL-0112-7854,2026-10-18,2026-10-18T11:54:08.087083+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Flood,5,27500000,A,371250.0,550000.0,1
-QTE-0112-7855,,2026-10-18,2026-10-18T11:54:08.087083+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Factory,Wildfire,3,38000000,B,379050.0,456000.0,0
+QTE-0113-7856,,2026-10-19,2026-10-19T14:14:22.331019+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Drought,2,46500000,B,397575.0,372000.0,0
+QTE-0113-7857,POL-0113-7857,2026-10-19,2026-10-19T14:14:22.331019+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Earthquake,2,41500000,B,354825.0,332000.0,1
+QTE-0113-7858,,2026-10-19,2026-10-19T14:14:22.331019+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Warehouse,Cyclone,2,26500000,B,226575.0,212000.0,0
+QTE-0113-7859,,2026-10-19,2026-10-19T14:14:22.331019+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Drought,3,36000000,A,378000.0,432000.0,0
+QTE-0113-7860,,2026-10-19,2026-10-19T14:14:22.331019+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Energy Site,Cyclone,3,31000000,B,309225.0,372000.0,0
