@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0114-7861,POL-0114-7861,2026-10-20,2026-10-20T12:27:59.801568+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Retail Site,Wildfire,1,5500000,A,41250.0,22000.0,1
-QTE-0114-7862,POL-0114-7862,2026-10-20,2026-10-20T12:27:59.801568+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Retail Site,Flood,3,15000000,A,157500.0,180000.0,1
-QTE-0114-7863,POL-0114-7863,2026-10-20,2026-10-20T12:27:59.801568+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Flood,3,24500000,B,244387.5,294000.0,1
-QTE-0114-7864,POL-0114-7864,2026-10-20,2026-10-20T12:27:59.801568+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Office,Wildfire,3,45500000,A,477750.0,546000.0,1
-QTE-0114-7865,,2026-10-20,2026-10-20T12:27:59.801568+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Flood,2,5500000,A,49500.0,44000.0,0
+QTE-0115-7866,POL-0115-7866,2026-10-21,2026-10-21T12:37:36.663222+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Office,Earthquake,2,30000000,A,270000.0,240000.0,1
+QTE-0115-7867,POL-0115-7867,2026-10-21,2026-10-21T12:37:36.663222+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Flood,2,7500000,A,67500.0,60000.0,1
+QTE-0115-7868,,2026-10-21,2026-10-21T12:37:36.663222+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Cyclone,2,47500000,B,406125.0,380000.0,0
+QTE-0115-7869,,2026-10-21,2026-10-21T12:37:36.663222+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Flood,3,21500000,B,214462.5,258000.0,0
+QTE-0115-7870,POL-0115-7870,2026-10-21,2026-10-21T12:37:36.663222+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Cyclone,2,7500000,B,64125.0,60000.0,1
