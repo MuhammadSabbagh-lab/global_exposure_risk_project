@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0117-7876,,2026-10-23,2026-10-23T12:19:46.377847+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Office,Flood,3,6500000,B,64837.5,78000.0,0
-QTE-0117-7877,,2026-10-23,2026-10-23T12:19:46.377847+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Wildfire,5,32000000,A,432000.0,640000.0,0
-QTE-0117-7878,POL-0117-7878,2026-10-23,2026-10-23T12:19:46.377847+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Drought,1,17500000,B,124687.5,70000.0,1
-QTE-0117-7879,,2026-10-23,2026-10-23T12:19:46.377847+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Warehouse,Cyclone,4,45500000,A,546000.0,728000.0,0
-QTE-0117-7880,POL-0117-7880,2026-10-23,2026-10-23T12:19:46.377847+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Warehouse,Flood,3,43500000,A,456750.0,522000.0,1
+QTE-0118-7881,,2026-10-24,2026-10-24T11:46:43.921485+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Cyclone,2,15500000,A,139500.0,124000.0,0
+QTE-0118-7882,POL-0118-7882,2026-10-24,2026-10-24T11:46:43.921485+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Factory,Wildfire,1,27500000,A,206250.0,110000.0,1
+QTE-0118-7883,,2026-10-24,2026-10-24T11:46:43.921485+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Flood,5,18500000,A,249750.0,370000.0,0
+QTE-0118-7884,POL-0118-7884,2026-10-24,2026-10-24T11:46:43.921485+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Drought,4,21000000,A,252000.0,336000.0,1
+QTE-0118-7885,POL-0118-7885,2026-10-24,2026-10-24T11:46:43.921485+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Earthquake,2,13000000,A,117000.0,104000.0,1
