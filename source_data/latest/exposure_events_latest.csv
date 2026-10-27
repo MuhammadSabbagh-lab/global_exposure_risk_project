@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0120-7891,POL-0120-7891,2026-10-26,2026-10-26T13:46:50.583366+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Wildfire,1,5500000,B,39187.5,22000.0,1
-QTE-0120-7892,,2026-10-26,2026-10-26T13:46:50.583366+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Cyclone,2,11500000,A,103500.0,92000.0,0
-QTE-0120-7893,,2026-10-26,2026-10-26T13:46:50.583366+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Earthquake,5,47500000,B,609187.5,950000.0,0
-QTE-0120-7894,POL-0120-7894,2026-10-26,2026-10-26T13:46:50.583366+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Wildfire,2,29500000,A,265500.0,236000.0,1
-QTE-0120-7895,POL-0120-7895,2026-10-26,2026-10-26T13:46:50.583366+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Warehouse,Cyclone,4,15000000,B,171000.0,240000.0,1
+QTE-0121-7896,,2026-10-27,2026-10-27T12:54:17.221612+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Earthquake,3,13500000,B,134662.5,162000.0,0
+QTE-0121-7897,POL-0121-7897,2026-10-27,2026-10-27T12:54:17.221612+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Wildfire,3,18500000,B,184537.5,222000.0,1
+QTE-0121-7898,POL-0121-7898,2026-10-27,2026-10-27T12:54:17.221612+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Retail Site,Earthquake,2,37500000,A,337500.0,300000.0,1
+QTE-0121-7899,POL-0121-7899,2026-10-27,2026-10-27T12:54:17.221612+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Retail Site,Drought,4,5000000,A,60000.0,80000.0,1
+QTE-0121-7900,,2026-10-27,2026-10-27T12:54:17.221612+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Warehouse,Drought,2,16000000,B,136800.0,128000.0,0
