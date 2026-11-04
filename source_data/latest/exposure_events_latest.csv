@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0128-7931,,2026-11-03,2026-11-03T14:47:51.449740+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Office,Wildfire,1,18500000,A,138750.0,74000.0,0
-QTE-0128-7932,,2026-11-03,2026-11-03T14:47:51.449740+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Earthquake,5,13500000,A,182250.0,270000.0,0
-QTE-0128-7933,,2026-11-03,2026-11-03T14:47:51.449740+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Factory,Earthquake,2,11000000,B,94050.0,88000.0,0
-QTE-0128-7934,,2026-11-03,2026-11-03T14:47:51.449740+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Factory,Earthquake,2,21500000,A,193500.0,172000.0,0
-QTE-0128-7935,,2026-11-03,2026-11-03T14:47:51.449740+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Drought,5,29000000,A,391500.0,580000.0,0
+QTE-0129-7936,,2026-11-04,2026-11-04T14:59:34.021277+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Wildfire,5,8000000,B,102600.0,160000.0,0
+QTE-0129-7937,POL-0129-7937,2026-11-04,2026-11-04T14:59:34.021277+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Energy Site,Flood,1,39000000,B,277875.0,156000.0,1
+QTE-0129-7938,,2026-11-04,2026-11-04T14:59:34.021277+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Drought,4,35500000,B,404700.0,568000.0,0
+QTE-0129-7939,POL-0129-7939,2026-11-04,2026-11-04T14:59:34.021277+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Wildfire,2,34500000,A,310500.0,276000.0,1
+QTE-0129-7940,,2026-11-04,2026-11-04T14:59:34.021277+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Warehouse,Drought,3,32500000,A,341250.0,390000.0,0
