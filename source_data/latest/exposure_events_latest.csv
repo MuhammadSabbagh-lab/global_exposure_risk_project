@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0132-7951,POL-0132-7951,2026-11-07,2026-11-07T13:41:14.958826+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Office,Earthquake,2,24000000,B,205200.0,192000.0,1
-QTE-0132-7952,POL-0132-7952,2026-11-07,2026-11-07T13:41:14.958826+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Earthquake,3,37000000,A,388500.0,444000.0,1
-QTE-0132-7953,POL-0132-7953,2026-11-07,2026-11-07T13:41:14.958826+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Wildfire,2,15000000,A,135000.0,120000.0,1
-QTE-0132-7954,POL-0132-7954,2026-11-07,2026-11-07T13:41:14.958826+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Flood,3,39000000,A,409500.0,468000.0,1
-QTE-0132-7955,,2026-11-07,2026-11-07T13:41:14.958826+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Warehouse,Wildfire,2,17000000,A,153000.0,136000.0,0
+QTE-0133-7956,,2026-11-08,2026-11-08T13:59:58.633894+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Energy Site,Drought,4,29500000,B,336300.0,472000.0,0
+QTE-0133-7957,POL-0133-7957,2026-11-08,2026-11-08T13:59:58.633894+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Drought,1,7500000,B,53437.5,30000.0,1
+QTE-0133-7958,POL-0133-7958,2026-11-08,2026-11-08T13:59:58.633894+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Office,Drought,2,25500000,B,218025.0,204000.0,1
+QTE-0133-7959,POL-0133-7959,2026-11-08,2026-11-08T13:59:58.633894+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Wildfire,3,19000000,A,199500.0,228000.0,1
+QTE-0133-7960,,2026-11-08,2026-11-08T13:59:58.633894+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Drought,5,18500000,A,249750.0,370000.0,0
