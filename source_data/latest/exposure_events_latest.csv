@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0135-7966,POL-0135-7966,2026-11-10,2026-11-10T15:21:08.852041+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Retail Site,Cyclone,2,49500000,A,445500.0,396000.0,1
-QTE-0135-7967,,2026-11-10,2026-11-10T15:21:08.852041+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Office,Earthquake,2,27000000,B,230850.0,216000.0,0
-QTE-0135-7968,POL-0135-7968,2026-11-10,2026-11-10T15:21:08.852041+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Warehouse,Flood,2,24500000,A,220500.0,196000.0,1
-QTE-0135-7969,,2026-11-10,2026-11-10T15:21:08.852041+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Retail Site,Flood,3,29000000,A,304500.0,348000.0,0
-QTE-0135-7970,,2026-11-10,2026-11-10T15:21:08.852041+00:00,Mumbai Global Assets Ltd,India,IND,Asia,Mumbai,19.076,72.8777,Energy Site,Earthquake,3,7000000,A,73500.0,84000.0,0
+QTE-0136-7971,,2026-11-11,2026-11-11T14:51:26.972325+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Energy Site,Earthquake,3,41000000,A,430500.0,492000.0,0
+QTE-0136-7972,,2026-11-11,2026-11-11T14:51:26.972325+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Retail Site,Drought,3,10000000,B,99750.0,120000.0,0
+QTE-0136-7973,,2026-11-11,2026-11-11T14:51:26.972325+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Earthquake,1,38000000,B,270750.0,152000.0,0
+QTE-0136-7974,,2026-11-11,2026-11-11T14:51:26.972325+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Factory,Drought,4,14000000,A,168000.0,224000.0,0
+QTE-0136-7975,POL-0136-7975,2026-11-11,2026-11-11T14:51:26.972325+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Earthquake,2,16500000,A,148500.0,132000.0,1
