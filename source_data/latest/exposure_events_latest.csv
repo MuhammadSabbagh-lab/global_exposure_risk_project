@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0142-8001,,2026-11-17,2026-11-17T16:36:59.952580+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Wildfire,5,30000000,B,384750.0,600000.0,0
-QTE-0142-8002,,2026-11-17,2026-11-17T16:36:59.952580+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Wildfire,2,32500000,A,292500.0,260000.0,0
-QTE-0142-8003,,2026-11-17,2026-11-17T16:36:59.952580+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Energy Site,Flood,2,38000000,A,342000.0,304000.0,0
-QTE-0142-8004,,2026-11-17,2026-11-17T16:36:59.952580+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Retail Site,Earthquake,5,36500000,B,468112.5,730000.0,0
-QTE-0142-8005,POL-0142-8005,2026-11-17,2026-11-17T16:36:59.952580+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Retail Site,Flood,3,7000000,B,69825.0,84000.0,1
+QTE-0143-8006,,2026-11-18,2026-11-18T16:05:48.545185+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Warehouse,Cyclone,4,16500000,B,188100.0,264000.0,0
+QTE-0143-8007,,2026-11-18,2026-11-18T16:05:48.545185+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Flood,3,32000000,A,336000.0,384000.0,0
+QTE-0143-8008,POL-0143-8008,2026-11-18,2026-11-18T16:05:48.545185+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Cyclone,2,24500000,A,220500.0,196000.0,1
+QTE-0143-8009,,2026-11-18,2026-11-18T16:05:48.545185+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Cyclone,3,20500000,A,215250.0,246000.0,0
+QTE-0143-8010,,2026-11-18,2026-11-18T16:05:48.545185+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Wildfire,5,14500000,B,185962.5,290000.0,0
