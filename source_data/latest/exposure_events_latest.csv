@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0143-8006,,2026-11-18,2026-11-18T16:05:48.545185+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Warehouse,Cyclone,4,16500000,B,188100.0,264000.0,0
-QTE-0143-8007,,2026-11-18,2026-11-18T16:05:48.545185+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Flood,3,32000000,A,336000.0,384000.0,0
-QTE-0143-8008,POL-0143-8008,2026-11-18,2026-11-18T16:05:48.545185+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Energy Site,Cyclone,2,24500000,A,220500.0,196000.0,1
-QTE-0143-8009,,2026-11-18,2026-11-18T16:05:48.545185+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Energy Site,Cyclone,3,20500000,A,215250.0,246000.0,0
-QTE-0143-8010,,2026-11-18,2026-11-18T16:05:48.545185+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Wildfire,5,14500000,B,185962.5,290000.0,0
+QTE-0144-8011,POL-0144-8011,2026-11-19,2026-11-19T16:13:39.510186+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Factory,Cyclone,3,16500000,A,173250.0,198000.0,1
+QTE-0144-8012,POL-0144-8012,2026-11-19,2026-11-19T16:13:39.510186+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Flood,2,21500000,B,183825.0,172000.0,1
+QTE-0144-8013,,2026-11-19,2026-11-19T16:13:39.510186+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Office,Earthquake,2,23000000,B,196650.0,184000.0,0
+QTE-0144-8014,,2026-11-19,2026-11-19T16:13:39.510186+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Warehouse,Earthquake,2,16000000,B,136800.0,128000.0,0
+QTE-0144-8015,,2026-11-19,2026-11-19T16:13:39.510186+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Energy Site,Drought,2,31000000,A,279000.0,248000.0,0
