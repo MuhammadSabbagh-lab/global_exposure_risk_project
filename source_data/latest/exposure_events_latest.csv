@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0146-8021,POL-0146-8021,2026-11-21,2026-11-21T15:01:39.937465+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Wildfire,3,11000000,B,109725.0,132000.0,1
-QTE-0146-8022,,2026-11-21,2026-11-21T15:01:39.937465+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Factory,Wildfire,2,26000000,B,222300.0,208000.0,0
-QTE-0146-8023,POL-0146-8023,2026-11-21,2026-11-21T15:01:39.937465+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Drought,2,24500000,B,209475.0,196000.0,1
-QTE-0146-8024,,2026-11-21,2026-11-21T15:01:39.937465+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Factory,Earthquake,5,20500000,A,276750.0,410000.0,0
-QTE-0146-8025,,2026-11-21,2026-11-21T15:01:39.937465+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Energy Site,Drought,1,34000000,A,255000.0,136000.0,0
+QTE-0147-8026,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Drought,4,7500000,B,85500.0,120000.0,0
+QTE-0147-8027,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Cyclone,2,17500000,A,157500.0,140000.0,0
+QTE-0147-8028,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Cyclone,1,30500000,B,217312.5,122000.0,0
+QTE-0147-8029,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Drought,4,7500000,A,90000.0,120000.0,0
+QTE-0147-8030,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Office,Cyclone,4,15000000,B,171000.0,240000.0,0
