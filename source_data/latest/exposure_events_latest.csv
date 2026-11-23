@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0147-8026,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Retail Site,Drought,4,7500000,B,85500.0,120000.0,0
-QTE-0147-8027,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Factory,Cyclone,2,17500000,A,157500.0,140000.0,0
-QTE-0147-8028,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Warehouse,Cyclone,1,30500000,B,217312.5,122000.0,0
-QTE-0147-8029,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Warehouse,Drought,4,7500000,A,90000.0,120000.0,0
-QTE-0147-8030,,2026-11-22,2026-11-22T14:59:21.414113+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Office,Cyclone,4,15000000,B,171000.0,240000.0,0
+QTE-0148-8031,,2026-11-23,2026-11-23T18:54:21.233765+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Office,Flood,2,18000000,B,153900.0,144000.0,0
+QTE-0148-8032,,2026-11-23,2026-11-23T18:54:21.233765+00:00,London Global Assets Ltd,United Kingdom,GBR,Europe,London,51.5072,-0.1276,Retail Site,Drought,2,27000000,A,243000.0,216000.0,0
+QTE-0148-8033,POL-0148-8033,2026-11-23,2026-11-23T18:54:21.233765+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Factory,Earthquake,2,41500000,A,373500.0,332000.0,1
+QTE-0148-8034,,2026-11-23,2026-11-23T18:54:21.233765+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Warehouse,Cyclone,4,12500000,B,142500.0,200000.0,0
+QTE-0148-8035,POL-0148-8035,2026-11-23,2026-11-23T18:54:21.233765+00:00,Sydney Global Assets Ltd,Australia,AUS,Oceania,Sydney,-33.8688,151.2093,Office,Drought,4,40500000,B,461700.0,648000.0,1
