@@ -1,6 +1,6 @@
 quote_id,policy_id,event_date,generated_timestamp_utc,account_name,country,iso_code,region,city,latitude,longitude,asset_type,peril,hazard_score,insured_value_usd,pricing_variant,quoted_premium_usd,expected_loss_usd,bound_flag
-QTE-0149-8036,,2026-11-24,2026-11-24T18:32:27.281027+00:00,Cairo Global Assets Ltd,Egypt,EGY,Africa,Cairo,30.0444,31.2357,Warehouse,Earthquake,2,15000000,B,128250.0,120000.0,0
-QTE-0149-8037,POL-0149-8037,2026-11-24,2026-11-24T18:32:27.281027+00:00,Paris Global Assets Ltd,France,FRA,Europe,Paris,48.8566,2.3522,Office,Flood,2,15000000,A,135000.0,120000.0,1
-QTE-0149-8038,,2026-11-24,2026-11-24T18:32:27.281027+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Office,Wildfire,2,9500000,A,85500.0,76000.0,0
-QTE-0149-8039,,2026-11-24,2026-11-24T18:32:27.281027+00:00,Tokyo Global Assets Ltd,Japan,JPN,Asia,Tokyo,35.6762,139.6503,Office,Cyclone,2,42500000,A,382500.0,340000.0,0
-QTE-0149-8040,POL-0149-8040,2026-11-24,2026-11-24T18:32:27.281027+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Factory,Earthquake,2,30500000,B,260775.0,244000.0,1
+QTE-0150-8041,POL-0150-8041,2026-11-25,2026-11-25T17:44:10.105195+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Factory,Drought,1,44000000,B,313500.0,176000.0,1
+QTE-0150-8042,,2026-11-25,2026-11-25T17:44:10.105195+00:00,Mexico City Global Assets Ltd,Mexico,MEX,North America,Mexico City,19.4326,-99.1332,Factory,Wildfire,3,46500000,A,488250.0,558000.0,0
+QTE-0150-8043,POL-0150-8043,2026-11-25,2026-11-25T17:44:10.105195+00:00,São Paulo Global Assets Ltd,Brazil,BRA,South America,São Paulo,-23.5558,-46.6396,Office,Drought,2,45000000,B,384750.0,360000.0,1
+QTE-0150-8044,,2026-11-25,2026-11-25T17:44:10.105195+00:00,Cape Town Global Assets Ltd,South Africa,ZAF,Africa,Cape Town,-33.9249,18.4241,Energy Site,Cyclone,3,23500000,B,234412.5,282000.0,0
+QTE-0150-8045,POL-0150-8045,2026-11-25,2026-11-25T17:44:10.105195+00:00,Houston Global Assets Ltd,United States,USA,North America,Houston,29.7604,-95.3698,Warehouse,Drought,1,12000000,A,90000.0,48000.0,1
